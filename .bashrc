@@ -7,3 +7,4 @@ alias t-all="TEST_ALL_FEATURES=1 bin/rails test"
 git config --global alias.co checkout
 git config --global alias.br branch
 git config --global alias.st status
+git config --global push.default current
