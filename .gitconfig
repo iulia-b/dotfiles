@@ -6,6 +6,7 @@
   br = branch
   st = status
   unstage = restore --staged
+  prettylog = log --pretty=format:"%h%x09%an%x09%ad%x09%s"
 [core]
   editor = vim
   whitespace = fix,-indent-with-non-tab,trailing-space,cr-at-eol
