@@ -1,6 +1,8 @@
 [user]
   email = iulia-b@github.com
   name = Iulia B
+[commit]
+    gpgsign = false
 [alias]
   co = checkout
   br = branch
