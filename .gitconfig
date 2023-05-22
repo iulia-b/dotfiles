@@ -2,7 +2,11 @@
   email = iulia-b@github.com
   name = Iulia B
 [commit]
-    gpgsign = false
+    gpgsign = true
+[tag]
+    gpgSign = true
+[github]
+	user = iulia-b
 [alias]
   co = checkout
   br = branch
@@ -31,3 +35,5 @@
 	minus-empty-line-marker-style = normal normal
 	plus-empty-line-marker-style = normal normal
 	line-numbers-right-format = "{np:^4}│ "
+[includeIf "gitdir:**/workspaces/**/.git"]
+    path = ~/.gitconfig-codespaces
