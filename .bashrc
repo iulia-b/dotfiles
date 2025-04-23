@@ -9,4 +9,7 @@ git config --global alias.br branch
 git config --global alias.st status
 git config --global push.default current
 
+# Ensure GPG_TTY is set correctly for GPG signing
+export GPG_TTY=$(tty)
+
 ./setup-git-config.sh
