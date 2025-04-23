@@ -10,6 +10,6 @@ git config --global alias.st status
 git config --global push.default current
 
 # Ensure GPG_TTY is set correctly for GPG signing
-export GPG_TTY=$(tty)
+git config commit.gpgsign false
 
 ./setup-git-config.sh
