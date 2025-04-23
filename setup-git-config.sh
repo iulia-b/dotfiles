@@ -4,4 +4,4 @@
 git config --global commit.gpgsign false
 
 # Set the GPG program to /bin/true globally
-git config --global gpg.program /bin/true
+# git config --global gpg.program /bin/true
