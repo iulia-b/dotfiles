@@ -2,9 +2,10 @@
   email = iulia-b@github.com
   name = Iulia B
 [commit]
-    gpgsign = false
-[tag]
-    gpgSign = false
+    gpgsign = true
+[gpg]
+    # Specify the GPG program to use
+    program = gpg
 [github]
 	user = iulia-b
 [alias]
